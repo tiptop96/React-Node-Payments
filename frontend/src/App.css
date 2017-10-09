@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+  position: relative;
+  background: #EAEAEA;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 1.5s linear;
+  height: 200px;
+  margin: 250px 0px 250px 0px;
+}
+
+.App-header {
+  background-color: #ffff00;
+  background-image: -webkit-linear-gradient(100deg, #EAEAEA 35%, #ffff00 35%);
+  min-height: 500px;
+}
+
+.App-footer {
+  background-color: #ff0099;
+  background-image: -webkit-linear-gradient(80deg, #ff0099 65%, #EAEAEA 65%);
+  min-height: 800px;
+  align-content: bottom;
+}
+
+.App-title {
+  color: white;
+  font-size: 2.0em;
+}
+
+.App-title-2 {
+  color: #ff0099;
+  font-size: 2.0em;
+}
+
+.App-intro {
+  text-align: center;
+  font-size: large;
+}
+
+/* Goes hand in hand with react-bootstraps button */
+.App-btn {
+  margin: 10px 0px 40px 0px;
+  color:white;
+  background: #ff0099;
+  border: 0 #ff0099;
+}
+.App-btn:hover {
+  color:white;
+  background: #B80671;
+  border: 0 #ff0099;
+}
+.App-btn:focus {
+  color:white;
+  background: #B80671;
+  border: 0 #ff0099;
+}
+.App-btn:active {
+  color:white;
+  background: #B80671;
+  border: 0 #730D4A;
+}
+.App-btn:onclick {
+  color:white;
+  background: #B80671;
+  border: 0 #730D4A;
+}
+.App-btn:target {
+  color:white;
+  background: #B80671;
+  border: 0 #730D4A;
+}
+
+@keyframes App-logo-spin {
+  0% { transform: scale(1.5); }
+  40% { transform: scale(1.7); }
+  50% { transform: scale(2); }
+  60% { transform: scale(1.7); }
+  100% { transform: scale(1.5); }
+}
+
+.App-body { 
+  display: block;
+  background-color: inherit;
+  margin: 0px 50px 0px 50px;
+}
+
+.App-para-title {
+  padding-top: 50px;
+  color:  #6b6b6b;
+  font-size: 2.5em;
+}
+
+.App-para
+{
+  color:  #6b6b6b;
+  font-size: 1.5em;
+  padding: 50px 50px;
+}
+.App-para-sm {
+  color:  #6b6b6b;
+  font-size: 1.4em;
+  padding: 0px 50px;
+}
+
+.Vert-line {
+  border-left: 3px solid  rgba(107, 107, 107, 0.63);
+}
+
+.Footer-copy-div {
+  display: block;
+  margin-top: 300px;
+  text-align: left;
+  color: #FFFFFF;
+  margin-left: 50px;
+}
+
+.App-box {
+  background: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.fa {
+  font-size: 3.0em;
+  margin: 10px;
+}
