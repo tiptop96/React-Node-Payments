@@ -1,4 +1,4 @@
-const FRONTEND_DEV_URLS = [ 'http://localhost:3000' ];
+const FRONTEND_DEV_URLS = [ 'http://localhost:3000','http://localhost:3000','https://polyscapestudio.com','https://www.polyscapestudio.com' ];
 
 const FRONTEND_PROD_URLS = [
     '<MYDOMAIN>'
