@@ -1,4 +1,4 @@
 const PAYMENT_SERVER_URL = process.env.NODE_ENV === 'production' 
-? '<MYDOMAIN>' 
-: 'http://localhost:8080';
+? 'https://polyscapestudio.com/api' 
+: 'http://localhost:8080/api';
 export default PAYMENT_SERVER_URL;

@@ -46,7 +46,7 @@ class App extends Component {
           </Col>
         </header>
 
-        <body className="App-body">
+        <content className="App-body">
           <Col md={4}>
           <div className="App-box">
             <p className="App-para-title">Welcome!</p>
@@ -95,7 +95,7 @@ class App extends Component {
             <img src={heart} className="App-logo" alt="logo" />
           </div>*/}
           </Col>
-        </body>
+        </content>
         <footer className="App-footer">
         </footer>
       </div>
